@@ -40,20 +40,12 @@ nav ul li a:hover{
   color: #ea1538;
   transition: .3s;
 }
-.GFC{
+button{
   border: none;
   background: #ea1538;
   padding: 12px 30px;
   border-radius: 30px;
   color: white;
-  font-weight: bold;
-  font-size: 15px;
-  transition: .4s;
-}
-.discord{
-  border: none;
-  padding: 12px 30px;
-  border-radius: 30px;
   font-weight: bold;
   font-size: 15px;
   transition: .4s;
