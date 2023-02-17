@@ -7,6 +7,7 @@
     top: 50%;
   }
   .social-icon-discord{
+    color: blue;
     transition: .4s;
     text-align: center;
     margin: 0 500px;
