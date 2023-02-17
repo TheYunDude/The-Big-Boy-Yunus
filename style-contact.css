@@ -13,20 +13,26 @@
     position: absolute;
     top: 50%;
   }
-  .icon{
+  .icon-yt{
     font-size: 100px;
     border: none;
     padding:10px;
     color:red;
   }
+  .icon-dk{
+    font-size: 100px;
+    border: none;
+    padding:10px;
+    color:blue;
+  }
   .social-icon-youtube:hover {
     transform: scale(1.3);
-    color: blue;
+    color: gray;
     cursor: pointer;
   }
   .social-icon-discord:hover {
     transform: scale(1.3);
-    color: blue;
+    color: gray;
     cursor: pointer;
   }
   body{
