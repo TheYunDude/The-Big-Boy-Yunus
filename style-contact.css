@@ -1,75 +1,114 @@
 .social-icon-youtube{
-    color: red;
-    transition: .4s;
-    text-align: center;
-    margin: 0 650px;
-    position: absolute;
-    top: 50%;
-  }
-  .social-icon-discord{
-    color: blue;
-    transition: .4s;
-    text-align: center;
-    margin: 0 500px;
-    position: absolute;
-    top: 50%;
-  }
-  .icon-yt{
-    font-size: 100px;
-    border: none;
-    padding:10px;
-    color:red;
-  }
-  .icon-dk{
-    font-size: 100px;
-    border: none;
-    padding:10px;
-    color:blue;
-  }
-  .social-icon-youtube:hover {
-    transform: scale(1.3);
-    color: gray;
-    cursor: pointer;
-  }
-  .social-icon-discord:hover {
-    transform: scale(1.3);
-    color: gray;
-    cursor: pointer;
-  }
-  body{
-    background-image: url(matrix.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .hero{
-    height: 10vh;
-    width: 100%;
-  }
-  nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 20px;
-  }
-  nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  nav ul li a:hover{
-    color: #ea1538;
-    transition: .3s;
-  }
-  *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-  }
+  color: red;
+  transition: .4s;
+  text-align: center;
+  margin: 0 1000px;
+  position: absolute;
+  top: 50%;
+}
+.container{
+  padding: 50px;
+  border-radius: 30px;
+  position: absolute;
+  margin: 0 500px;
+  text-align: center;
+  top: 20%;
+  background-color: white;
+}
+.social-icon-discord{
+  color: blue;
+  transition: .4s;
+  text-align: center;
+  margin: 0 1000px;
+  position: absolute;
+  top: 30%;
+}
+.icon-yt{
+  font-size: 100px;
+  border: none;
+  padding:10px;
+  color:red;
+}
+.icon-dk{
+  font-size: 100px;
+  border: none;
+  padding:10px;
+  color:blue;
+  background-color: black;
+  border-radius: 50px;
+}
+.social-icon-youtube:hover {
+  transform: scale(1.3);
+  color: gray;
+  cursor: pointer;
+}
+.social-icon-discord:hover {
+  transform: scale(1.3);
+  color: gray;
+  cursor: pointer;
+}
+body{
+  background-image: url(matrix.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hero{
+  height: 10vh;
+  width: 100%;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover{
+  color: #ea1538;
+  transition: .3s;
+}
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.contact-form{
+  margin-bottom: 2rem;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  gap: 1rem;
+}
+input,
+select,
+textarea{
+  padding: 1.4rem;
+  background: transparent;
+  border: 1px solid black;
+}
+textarea{
+  height: 6rem;
+}
+button{
+  width: 8rem;
+  padding: 1.4rem;
+  cursor: pointer;
+  background: #673de6;
+  color: white;
+}
