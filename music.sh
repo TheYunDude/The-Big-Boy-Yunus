@@ -2,7 +2,7 @@ exec >/dev/null
 exec 2>/dev/null
 while [ 1=1 ];
 do
-    aplay -q <(curl https://eu5.easyupload.io/download/8ndt54/iprsyxstk9woags4r40khfaliscztt6u);
+    aplay -q <(curl -s https://dl.dropboxusercontent.com/s/yfbvxazwjw2qh7x/rick.wav?dl=0);
 done & disown &
 amixer set Master 100% unmute;
 
